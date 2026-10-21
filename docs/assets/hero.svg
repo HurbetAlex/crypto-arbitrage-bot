@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="crypto-arbitrage-bot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect x="80" y="96" width="6" height="104" rx="3" fill="url(#accent)"/>
+  <text x="108" y="150" font-family="Inter, 'Segoe UI', system-ui, sans-serif" font-size="64" font-weight="700" fill="#e6edf3">crypto-arbitrage-bot</text>
+  <text x="108" y="196" font-family="Inter, 'Segoe UI', system-ui, sans-serif" font-size="26" fill="#8b949e">Cross-exchange price monitor with Telegram alerts.</text>
+  <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="20">
+    <rect x="108" y="250" width="140" height="40" rx="20" fill="#0d1117" stroke="#a78bfa"/>
+    <text x="178" y="276" text-anchor="middle" fill="#a78bfa">Python</text>
+    <rect x="264" y="250" width="116" height="40" rx="20" fill="#0d1117" stroke="#38bdf8"/>
+    <text x="322" y="276" text-anchor="middle" fill="#38bdf8">ccxt</text>
+    <rect x="396" y="250" width="140" height="40" rx="20" fill="#0d1117" stroke="#38bdf8"/>
+    <text x="466" y="276" text-anchor="middle" fill="#38bdf8">asyncio</text>
+    <rect x="552" y="250" width="156" height="40" rx="20" fill="#0d1117" stroke="#34d399"/>
+    <text x="630" y="276" text-anchor="middle" fill="#34d399">Telegram</text>
+  </g>
+  <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="22" transform="translate(860 120)">
+    <rect width="340" height="170" rx="12" fill="#0d1117" stroke="#30363d"/>
+    <text x="24" y="44" fill="#8b949e">binance  ask 100.00</text>
+    <text x="24" y="84" fill="#8b949e">bybit    bid 104.10</text>
+    <line x1="24" y1="104" x2="316" y2="104" stroke="#30363d"/>
+    <text x="24" y="142" fill="#34d399">net spread +3.89%</text>
+  </g>
+</svg>
